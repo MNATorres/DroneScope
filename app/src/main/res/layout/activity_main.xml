@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#0E1116">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fase 1 · Verificación del drone"
+            android:textColor="#8A93A2"
+            android:textSize="13sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvInit"
+            style="@style/Card"
+            android:text="Inicialización SDK: —" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            style="@style/Card"
+            android:text="Registro del SDK: inactivo" />
+
+        <TextView
+            android:id="@+id/tvConnection"
+            style="@style/Card"
+            android:text="Drone: 🔴 desconectado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IDENTIDAD"
+            android:textColor="#6B7280"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvProduct"
+            style="@style/Card"
+            android:text="Modelo: —" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TELEMETRÍA EN VIVO"
+            android:textColor="#6B7280"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTelemetry"
+            style="@style/Card"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="4dp"
+            android:text="…" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTROL POR CÓDIGO"
+            android:textColor="#6B7280"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <Button
+            android:id="@+id/btnTestVirtualStick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Probar Virtual Stick"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Probar con el drone en el piso y SIN hélices."
+            android:textColor="#E0A800"
+            android:textSize="12sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvVirtualStick"
+            style="@style/Card"
+            android:text="Virtual Stick: sin probar" />
+
+    </LinearLayout>
+</ScrollView>

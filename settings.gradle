@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()   // Los paquetes del DJI MSDK v5 (com.dji:dji-sdk-v5-*) viven acá
+    }
+}
+
+rootProject.name = "DroneScope"
+include ':app'

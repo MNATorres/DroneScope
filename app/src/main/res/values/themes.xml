@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DroneScope" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1E6FEB</item>
+        <item name="colorPrimaryDark">#0E1116</item>
+        <item name="colorAccent">#1E6FEB</item>
+        <item name="android:statusBarColor">#0E1116</item>
+    </style>
+
+    <!-- Estilo reutilizable para las "tarjetas" de información -->
+    <style name="Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#1A1F29</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">#E6EAF0</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

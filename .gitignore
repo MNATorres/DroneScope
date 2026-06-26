@@ -1,0 +1,34 @@
+# Android Studio / IntelliJ
+*.iml
+/.idea
+.idea
+
+# Gradle
+.gradle
+/build
+/app/build
+/captures
+
+# NDK / C++
+.externalNativeBuild
+.cxx
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Config local de la máquina (SDK path, etc.)
+/local.properties
+local.properties
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs / temporales
+*.log
+
+# NOTA: gradle.properties SÍ se versiona (contiene el App Key de DJI, atado al
+# package name; es gratis y no se considera secreto en este proyecto).

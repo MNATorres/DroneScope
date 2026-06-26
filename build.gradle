@@ -1,0 +1,5 @@
+// Configuración raíz del proyecto. Los plugins se declaran acá y se aplican en :app
+plugins {
+    id 'com.android.application' version '8.10.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.24' apply false
+}
